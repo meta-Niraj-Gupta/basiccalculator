@@ -1,0 +1,77 @@
+# gradle build folder
+build/*
+
+# build properties for local machine
+build.properties
+
+# node modules for client
+src/client/build/node_modules
+
+# gradle folder
+.gradle
+
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# IntelliJ project files
+*.iml
+*.iws
+*.ipr
+.idea/
+
+# eclipse project file
+.settings/
+.classpath
+.project
+
+# NetBeans specific
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# vscode folder
+.vscode
+
+# OS
+.DS_Store
+
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components
+
+# Optional npm cache directory
+.npm
+/bin/
+
+# vs code
+.vscode/*
+
+#gradle
+gradle/
+gradlew
+gradlew.bat
+
+out/
